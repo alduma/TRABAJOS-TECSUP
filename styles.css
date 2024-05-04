@@ -1,26 +1,32 @@
-* {
-    margin: 0;
+*{
+    margin: o;
     padding: 0;
-    box-sizing: border-box; /* Agrega esta línea para incluir el padding y el borde en el ancho y alto total */
 }
 
-body {
-    background-color: #0D1A2C;
-    display: flex; /* Usa flexbox para centrar contenido */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Establece el cuerpo para ocupar toda la altura de la ventana */
+
+
+body{
+    background-color: #0d1a2c;
+    height: 100vh;
+    border: solid orange;
+    text-align: center;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div {
-    border: solid;
+div{
+    background-color: #15273f;
     width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    text-align: center; /* Centra el texto dentro del div */
-    color: white; /* Cambia el color del texto a blanco */
+    height: 500px;border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
 }
 
-h1, h2, h3 {
-    color: white; /* Cambia el color del texto a blanco */
+
+img{
+    border: solid red;
+    border-radius: 20px;
+    width: 300px;
+
 }
