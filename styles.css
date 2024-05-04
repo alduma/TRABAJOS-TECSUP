@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Agrega esta línea para incluir el padding y el borde en el ancho y alto total */
+}
+
+body {
+    background-color: #0D1A2C;
+    display: flex; /* Usa flexbox para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Establece el cuerpo para ocupar toda la altura de la ventana */
+}
+
+div {
+    border: solid;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center; /* Centra el texto dentro del div */
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+h1, h2, h3 {
+    color: white; /* Cambia el color del texto a blanco */
+}
